@@ -13,6 +13,14 @@ urlpatterns = [
     path("api/", include("apps.meteo.urls")),
     path("api/", include("apps.hydrique.urls")),
     path("api/", include("apps.ia.urls")),
+    path(
+    "api/admin/",
+    include("apps.users.admin_urls"),
+),
+path(
+    "api/auth/profile/",
+    include("apps.users.profile_urls"),
+),
 ]
 
 if settings.DEBUG:

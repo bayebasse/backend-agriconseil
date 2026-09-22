@@ -8,8 +8,25 @@ load_dotenv(BASE_DIR / ".env")
 SECRET_KEY = os.getenv("SECRET_KEY", "dev-only-change-me")
 DEBUG = os.getenv("DEBUG", "True").lower() == "true"
 ALLOWED_HOSTS = [h.strip() for h in os.getenv("ALLOWED_HOSTS", "127.0.0.1,localhost").split(",") if h.strip()]
-WEATHER_API_URL = os.getenv("WEATHER_API_URL", "https://api.open-meteo.com/v1/forecast")
-WEATHER_API_KEY = os.getenv("WEATHER_API_KEY", "")
+# ancienncode avec opemmétéo
+# WEATHER_API_URL = os.getenv("WEATHER_API_URL", "https://api.open-meteo.com/v1/forecast")
+# WEATHER_API_KEY = os.getenv("WEATHER_API_KEY", "")
+OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY", "")
+
+OPENWEATHER_GEOCODING_URL = os.getenv(
+    "OPENWEATHER_GEOCODING_URL",
+    "https://api.openweathermap.org/geo/1.0/direct",
+)
+
+OPENWEATHER_WEATHER_URL = os.getenv(
+    "OPENWEATHER_WEATHER_URL",
+    "https://api.openweathermap.org/data/2.5/weather",
+)
+
+OPENWEATHER_FORECAST_URL = os.getenv(
+    "OPENWEATHER_FORECAST_URL",
+    "https://api.openweathermap.org/data/2.5/forecast",
+)
 AI_API_URL = os.getenv("AI_API_URL", "")
 AI_API_KEY = os.getenv("AI_API_KEY", "")
 
@@ -59,13 +76,17 @@ TEMPLATES = [
 ]
 WSGI_APPLICATION = "config.wsgi.application"
 
+
+
+# Ancien base de données SQLite pour l'instant baye basse (commentée) OK 
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
-    }
+   }
 }
 
+    
 AUTH_PASSWORD_VALIDATORS = [
     {"NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"},
     {"NAME": "django.contrib.auth.password_validation.MinimumLengthValidator"},
