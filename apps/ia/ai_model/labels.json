@@ -1,0 +1,156 @@
+{
+  "riz__pyriculariose": {
+    "culture": "Riz",
+    "maladie": "Pyriculariose du riz"
+  },
+  "riz__tache_brune": {
+    "culture": "Riz",
+    "maladie": "Tache brune du riz"
+  },
+  "riz__bacteriose_feuilles": {
+    "culture": "Riz",
+    "maladie": "Bactériose des feuilles du riz"
+  },
+  "sain__riz": {
+    "culture": "Riz",
+    "maladie": null
+  },
+
+  "mil__mildiou": {
+    "culture": "Mil",
+    "maladie": "Mildiou du mil"
+  },
+  "mil__rouille": {
+    "culture": "Mil",
+    "maladie": "Rouille du mil"
+  },
+  "mil__blast": {
+    "culture": "Mil",
+    "maladie": "Blast du mil"
+  },
+  "sain__mil": {
+    "culture": "Mil",
+    "maladie": null
+  },
+
+  "mais__helminthosporiose": {
+    "culture": "Maïs",
+    "maladie": "Helminthosporiose du maïs"
+  },
+  "mais__rouille": {
+    "culture": "Maïs",
+    "maladie": "Rouille du maïs"
+  },
+  "sain__mais": {
+    "culture": "Maïs",
+    "maladie": null
+  },
+
+  "sorgho__anthracnose": {
+    "culture": "Sorgho",
+    "maladie": "Anthracnose du sorgho"
+  },
+  "sorgho__rouille": {
+    "culture": "Sorgho",
+    "maladie": "Rouille du sorgho"
+  },
+  "sain__sorgho": {
+    "culture": "Sorgho",
+    "maladie": null
+  },
+
+  "arachide__cercosporiose_precoce": {
+    "culture": "Arachide",
+    "maladie": "Cercosporiose précoce de l'arachide"
+  },
+  "arachide__cercosporiose_tardive": {
+    "culture": "Arachide",
+    "maladie": "Cercosporiose tardive de l'arachide"
+  },
+  "arachide__rouille": {
+    "culture": "Arachide",
+    "maladie": "Rouille de l'arachide"
+  },
+  "sain__arachide": {
+    "culture": "Arachide",
+    "maladie": null
+  },
+
+  "niebe__mosaique": {
+    "culture": "Niébé",
+    "maladie": "Mosaïque du niébé"
+  },
+  "niebe__anthracnose": {
+    "culture": "Niébé",
+    "maladie": "Anthracnose du niébé"
+  },
+  "sain__niebe": {
+    "culture": "Niébé",
+    "maladie": null
+  },
+
+  "manioc__mosaique": {
+    "culture": "Manioc",
+    "maladie": "Mosaïque du manioc"
+  },
+  "manioc__bacteriose": {
+    "culture": "Manioc",
+    "maladie": "Bactériose du manioc"
+  },
+  "manioc__anthracnose": {
+    "culture": "Manioc",
+    "maladie": "Anthracnose du manioc"
+  },
+  "sain__manioc": {
+    "culture": "Manioc",
+    "maladie": null
+  },
+
+  "oignon__alternariose": {
+    "culture": "Oignon",
+    "maladie": "Alternariose de l'oignon"
+  },
+  "oignon__mildiou": {
+    "culture": "Oignon",
+    "maladie": "Mildiou de l'oignon"
+  },
+  "sain__oignon": {
+    "culture": "Oignon",
+    "maladie": null
+  },
+
+  "mangue__anthracnose": {
+    "culture": "Mangue",
+    "maladie": "Anthracnose de la mangue"
+  },
+  "mangue__oidium": {
+    "culture": "Mangue",
+    "maladie": "Oïdium de la mangue"
+  },
+  "sain__mangue": {
+    "culture": "Mangue",
+    "maladie": null
+  },
+
+  "pasteque__anthracnose": {
+    "culture": "Pastèque",
+    "maladie": "Anthracnose de la pastèque"
+  },
+  "pasteque__mildiou": {
+    "culture": "Pastèque",
+    "maladie": "Mildiou de la pastèque"
+  },
+  "sain__pasteque": {
+    "culture": "Pastèque",
+    "maladie": null
+  },
+
+  "image_inexploitable": {
+    "culture": null,
+    "maladie": null
+  },
+  "culture_non_supportee": {
+    "culture": null,
+    "maladie": null
+  }
+}
