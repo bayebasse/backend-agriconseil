@@ -1,1 +1,81 @@
 filename,class,culture,maladie,split,source,source_url,license,verified
+IMG_20230313_074433_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,test,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074441_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,validation,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074445_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,validation,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074450_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,test,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074453_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,train,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074457_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,train,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074502_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,train,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074504_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,test,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074507_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,test,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074510_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,train,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074517_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,train,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074520_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,validation,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074523_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,train,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074538.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,train,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074547_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,train,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074549_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,train,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074552_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,validation,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074555_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,train,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074557_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,train,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+IMG_20230313_074601_HDR.jpg,riz__pyriculariose,Riz,Pyriculariose du riz,train,Mendeley Data - Rice Leaf Disease Dataset V2,https://data.mendeley.com/datasets/z4hx2v3ywc/2,CC BY 4.0,non
+Brown_spot  (1).jpg,riz__tache_brune,Riz,Tache brune du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (10).jpg,riz__tache_brune,Riz,Tache brune du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (11).jpg,riz__tache_brune,Riz,Tache brune du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (12).jpg,riz__tache_brune,Riz,Tache brune du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (13).jpg,riz__tache_brune,Riz,Tache brune du riz,validation,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (14).jpg,riz__tache_brune,Riz,Tache brune du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (15).jpg,riz__tache_brune,Riz,Tache brune du riz,test,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (16).jpg,riz__tache_brune,Riz,Tache brune du riz,validation,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (17).jpg,riz__tache_brune,Riz,Tache brune du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (18).jpg,riz__tache_brune,Riz,Tache brune du riz,validation,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (19).jpg,riz__tache_brune,Riz,Tache brune du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (2).jpg,riz__tache_brune,Riz,Tache brune du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (20).jpg,riz__tache_brune,Riz,Tache brune du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (3).jpg,riz__tache_brune,Riz,Tache brune du riz,test,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (4).jpg,riz__tache_brune,Riz,Tache brune du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (5).jpg,riz__tache_brune,Riz,Tache brune du riz,validation,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (6).jpg,riz__tache_brune,Riz,Tache brune du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (7).jpg,riz__tache_brune,Riz,Tache brune du riz,test,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (8).jpg,riz__tache_brune,Riz,Tache brune du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Brown_spot  (9).jpg,riz__tache_brune,Riz,Tache brune du riz,test,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (1).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (10).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,validation,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (11).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (12).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,test,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (13).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (14).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (15).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (16).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,validation,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (17).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,test,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (18).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (19).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (2).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,test,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (20).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (3).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (4).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (5).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (6).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,validation,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (7).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,validation,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (8).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,test,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Bacterial_leaf_Blight  (9).jpg,riz__bacteriose_feuilles,Riz,Bactériose des feuilles du riz,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (1).jpg,sain__riz,Riz,,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (10).jpg,sain__riz,Riz,,test,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (11).jpg,sain__riz,Riz,,test,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (12).jpg,sain__riz,Riz,,validation,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (13).jpg,sain__riz,Riz,,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (14).jpg,sain__riz,Riz,,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (15).jpg,sain__riz,Riz,,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (16).jpg,sain__riz,Riz,,test,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (17).jpg,sain__riz,Riz,,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (18).jpg,sain__riz,Riz,,test,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (19).jpg,sain__riz,Riz,,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (2).jpg,sain__riz,Riz,,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (20).jpg,sain__riz,Riz,,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (3).jpg,sain__riz,Riz,,validation,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (4).jpg,sain__riz,Riz,,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (5).jpg,sain__riz,Riz,,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (6).jpg,sain__riz,Riz,,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (7).jpg,sain__riz,Riz,,train,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (8).jpg,sain__riz,Riz,,validation,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non
+Healthy_rice_leaf  (9).jpg,sain__riz,Riz,,validation,Mendeley Data - Rice Leaf Bacterial and Fungal Disease Dataset V2,https://data.mendeley.com/datasets/hx6f852hw4/2,CC BY 4.0,non

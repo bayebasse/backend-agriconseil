@@ -1,0 +1,8 @@
+torch
+torchvision
+transformers
+scikit-learn
+pillow
+numpy
+safetensors
+accelerate
