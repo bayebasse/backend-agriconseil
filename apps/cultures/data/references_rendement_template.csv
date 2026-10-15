@@ -1,0 +1,11 @@
+culture_code,variete,zone_agroecologique,systeme_culture,type_cycle,cycle_min,cycle_max,cycle_unite,age_arbres_min_annees,age_arbres_max_annees,rendement_min,rendement_moyen,rendement_max,rendement_unite,periode_rendement,besoin_eau_min_mm,besoin_eau_max_mm,sensibilite_secheresse,source_titre,source_url,source_annee,conditions_mesure
+mil,,,,,,,,,,,,,,,,,,,,,
+arachide,,,,,,,,,,,,,,,,,,,,,
+riz,,,,,,,,,,,,,,,,,,,,,
+mais,,,,,,,,,,,,,,,,,,,,,
+sorgho,,,,,,,,,,,,,,,,,,,,,
+niebe,,,,,,,,,,,,,,,,,,,,,
+manioc,,,,,,,,,,,,,,,,,,,,,
+oignon,,,,,,,,,,,,,,,,,,,,,
+mangue,,,,,,,,,,,,,,,,,,,,,
+pasteque,,,,,,,,,,,,,,,,,,,,,

@@ -134,6 +134,16 @@ class Stade(models.Model):
         related_name="stades_calcul",
     )
 
+    # Null for legacy rows. New calculated stages belong to one tracked crop,
+    # since their dates depend on that crop's sowing date.
+    culture_suivie = models.ForeignKey(
+        CultureSuivie,
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        related_name="stades_calcules",
+    )
+
     reference = models.ForeignKey(
         StadeReference,
         on_delete=models.PROTECT,
@@ -164,6 +174,12 @@ class Stade(models.Model):
 
     class Meta:
         ordering = ["culture_id", "ordre"]
+        constraints = [
+            models.UniqueConstraint(
+                fields=["culture_suivie", "reference"],
+                name="unique_stade_reference_par_culture_suivie",
+            )
+        ]
 
 class CalendrierAgricole(models.Model):
     culture_suivie = models.OneToOneField(

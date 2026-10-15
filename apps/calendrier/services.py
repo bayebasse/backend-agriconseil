@@ -40,6 +40,9 @@
 #version 2.0  normal baye basse
 from datetime import timedelta
 
+from django.core.exceptions import ObjectDoesNotExist
+from django.db import transaction
+from django.db.models import Q
 from django.utils import timezone
 
 from .models import (
@@ -61,11 +64,10 @@ def build_stages(culture_suivie):
     en stades utilisables par le moteur de calcul.
     """
 
-    referentiel = get_referentiel(culture_suivie)
-
-    Stade.objects.filter(
-        culture=culture_suivie.culture
-    ).delete()
+    try:
+        referentiel = get_referentiel(culture_suivie)
+    except ObjectDoesNotExist:
+        return []
 
     stages = []
 
@@ -82,14 +84,17 @@ def build_stages(culture_suivie):
             + timedelta(days=reference.duree_jours - 1)
         )
 
-        stage = Stade.objects.create(
-            culture=culture_suivie.culture,
+        stage, _ = Stade.objects.update_or_create(
+            culture_suivie=culture_suivie,
             reference=reference,
-            nom=reference.nom,
-            ordre=reference.ordre,
-            duree_jours=reference.duree_jours,
-            date_debut=date_debut,
-            date_fin=date_fin,
+            defaults={
+                "culture": culture_suivie.culture,
+                "nom": reference.nom,
+                "ordre": reference.ordre,
+                "duree_jours": reference.duree_jours,
+                "date_debut": date_debut,
+                "date_fin": date_fin,
+            },
         )
 
         stages.append(stage)
@@ -146,13 +151,12 @@ def get_trigger_date(
     return None
 
 
+@transaction.atomic
 def ensure_calendar(culture_suivie):
 
     calendar, _ = CalendrierAgricole.objects.get_or_create(
         culture_suivie=culture_suivie
     )
-
-    calendar.operations.all().delete()
 
     stages = build_stages(culture_suivie)
 
@@ -200,28 +204,60 @@ def ensure_calendar(culture_suivie):
                 None,
             )
 
-        OperationAgricole.objects.create(
-            calendrier=calendar,
-            stade=stade,
-            nom=rule.nom,
-            description=rule.description,
-            date_debut=date_debut,
-            date_fin=date_fin,
-        )
+        operation_query = calendar.operations.filter(nom=rule.nom)
+        if stade:
+            operation_query = operation_query.filter(
+                Q(stade=stade)
+                | Q(
+                    stade__reference_id=stade.reference_id,
+                    stade__culture_suivie__isnull=True,
+                )
+            )
+        else:
+            operation_query = operation_query.filter(stade__isnull=True)
+        operation = operation_query.order_by("id").first()
+        if operation:
+            # Keep user-managed fields such as status and preserve the row.
+            operation.stade = stade
+            operation.description = rule.description
+            operation.date_debut = date_debut
+            operation.date_fin = date_fin
+            operation.save(
+                update_fields=[
+                    "stade",
+                    "description",
+                    "date_debut",
+                    "date_fin",
+                ]
+            )
+        else:
+            OperationAgricole.objects.create(
+                calendrier=calendar,
+                stade=stade,
+                nom=rule.nom,
+                description=rule.description,
+                date_debut=date_debut,
+                date_fin=date_fin,
+            )
 
     return calendar
 
 
 def current_stage(culture_suivie):
 
-    stages = Stade.objects.filter(
-        culture=culture_suivie.culture
-    ).order_by("ordre")
-
-    if not stages.exists():
-        stages = build_stages(culture_suivie)
-
     today = timezone.localdate()
+
+    if today < culture_suivie.date_semis:
+        return None
+
+    stages = list(
+        Stade.objects.filter(
+            culture_suivie=culture_suivie
+        ).order_by("ordre")
+    )
+
+    if not stages:
+        stages = build_stages(culture_suivie)
 
     for stage in stages:
 
@@ -232,7 +268,7 @@ def current_stage(culture_suivie):
         ):
             return stage
 
-    return stages.last()
+    return None
 
 
 def next_operation(culture_suivie):

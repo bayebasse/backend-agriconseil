@@ -1,6 +1,10 @@
-from rest_framework import viewsets, permissions
+from rest_framework import viewsets, permissions, status
+from rest_framework.exceptions import PermissionDenied
+from rest_framework.response import Response
 from .models import Region, Departement, CommuneLocalite, CultureRef, CultureSuivie
 from .serializers import RegionSerializer, DepartementSerializer, CommuneSerializer, CultureRefSerializer, CultureSuivieSerializer
+from .buyer_views import BuyerCropCatalogView
+from apps.users.permissions import IsFarmerRole
 
 class RegionViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = Region.objects.all().order_by("nom"); serializer_class = RegionSerializer
@@ -14,4 +18,5 @@ class CultureRefViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = CultureRef.objects.filter(actif=True).order_by("nom"); serializer_class = CultureRefSerializer
 class CultureSuivieViewSet(viewsets.ModelViewSet):
     serializer_class = CultureSuivieSerializer
+    permission_classes = [permissions.IsAuthenticated, IsFarmerRole]
     def get_queryset(self): return CultureSuivie.objects.filter(agriculteur=self.request.user).select_related("culture","commune","region","departement").order_by("-created_at")

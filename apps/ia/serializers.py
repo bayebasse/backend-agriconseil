@@ -10,3 +10,21 @@ class PhotoSerializer(serializers.ModelSerializer):
         read_only_fields = ["agriculteur"]
     def create(self, validated_data):
         return Photo.objects.create(agriculteur=self.context["request"].user, **validated_data)
+
+
+class AgriculturalQuestionSerializer(serializers.Serializer):
+    question = serializers.CharField(max_length=1500, trim_whitespace=True)
+
+    def validate_question(self, value):
+        if len(value.strip()) < 2:
+            raise serializers.ValidationError("Saisissez une question.")
+        return value.strip()
+
+
+class AgriculturalQuestionSerializer(serializers.Serializer):
+    question = serializers.CharField(max_length=1500, trim_whitespace=True)
+
+    def validate_question(self, value):
+        if len(value.strip()) < 2:
+            raise serializers.ValidationError("Saisissez une question.")
+        return value.strip()

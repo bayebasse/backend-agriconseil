@@ -639,9 +639,25 @@ def create_rules(culture, referentiel):
 class Command(BaseCommand):
     help = "Initialise le référentiel agronomique V1 d'Agri-Conseil."
 
+    def add_arguments(self, parser):
+        parser.add_argument(
+            "--culture",
+            help="Initialise uniquement la culture indiquée (ex. Mil).",
+        )
+
     def handle(self, *args, **options):
 
-        for nom, data in CULTURES.items():
+        requested = options.get("culture")
+        if requested and requested not in CULTURES:
+            self.stderr.write(self.style.ERROR(
+                f"Culture inconnue : {requested}. Choix : {', '.join(CULTURES)}"
+            ))
+            return
+
+        cultures = (
+            {requested: CULTURES[requested]} if requested else CULTURES
+        )
+        for nom, data in cultures.items():
 
             culture, _ = CultureRef.objects.update_or_create(
                 nom=nom,
@@ -671,17 +687,15 @@ class Command(BaseCommand):
                 )
             )
 
-            StadeReference.objects.filter(
-                referentiel=referentiel
-            ).delete()
-
             for nom_stade, ordre, duree, kc in data["stades"]:
-                StadeReference.objects.create(
+                StadeReference.objects.update_or_create(
                     referentiel=referentiel,
-                    nom=nom_stade,
                     ordre=ordre,
-                    duree_jours=duree,
-                    kc=kc,
+                    defaults={
+                        "nom": nom_stade,
+                        "duree_jours": duree,
+                        "kc": kc,
+                    },
                 )
 
             create_rules(culture, referentiel)

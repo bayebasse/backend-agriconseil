@@ -13,6 +13,8 @@ urlpatterns = [
     path("api/", include("apps.meteo.urls")),
     path("api/", include("apps.hydrique.urls")),
     path("api/", include("apps.ia.urls")),
+    path("api/messages/", include("apps.messaging.urls")),
+    path("api/transactions/", include("apps.transactions.urls")),
     path(
     "api/admin/",
     include("apps.users.admin_urls"),

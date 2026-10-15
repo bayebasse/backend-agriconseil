@@ -4,6 +4,8 @@ from dotenv import load_dotenv
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BASE_DIR / ".env")
+# Support the existing ignored local file as a fallback; root .env/env vars win.
+load_dotenv(BASE_DIR / "apps" / "cultures" / ".env", override=False)
 
 SECRET_KEY = os.getenv("SECRET_KEY", "dev-only-change-me")
 DEBUG = os.getenv("DEBUG", "True").lower() == "true"
@@ -29,6 +31,10 @@ OPENWEATHER_FORECAST_URL = os.getenv(
 )
 AI_API_URL = os.getenv("AI_API_URL", "")
 AI_API_KEY = os.getenv("AI_API_KEY", "")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
+AGRI_RAG_MODEL = os.getenv("AGRI_RAG_MODEL", GEMINI_MODEL)
+AGRI_RAG_RELEVANCE_THRESHOLD = float(os.getenv("AGRI_RAG_RELEVANCE_THRESHOLD", "0.18"))
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -46,6 +52,8 @@ INSTALLED_APPS = [
     "apps.meteo",
     "apps.hydrique",
     "apps.ia",
+    "apps.messaging",
+    "apps.transactions",
 ]
 
 MIDDLEWARE = [
@@ -100,6 +108,7 @@ STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
 MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / "media"
+PRIVATE_AUDIO_ROOT = BASE_DIR / "private_audio"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 AUTH_USER_MODEL = "users.User"
 
